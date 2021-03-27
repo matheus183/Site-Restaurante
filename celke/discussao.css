@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Arial;
+}
+
+div#largura-pagina{
+    width:85%;
+    
+    margin:auto;
+}
+/* menu*/
+
+nav{
+    background-color: rgb(248, 108, 27);
+    height: 60px;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    margin-right: 100px;
+}
+
+li{
+    display: inline-block;
+    line-height: 60px;
+    padding: 0px 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+li a:hover{
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+/* conteudo principal */
+
+section#conteudo1{
+    width:60%;
+}
+
+img{
+    width: 100%;
+}
+
+form img{
+    width: 50px;
+ 
+}
+
+textarea {
+    height: 100px;
+    width: 85%;
+}
+
+
+

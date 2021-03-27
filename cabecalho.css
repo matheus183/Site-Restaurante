@@ -1,0 +1,73 @@
+
+/*cabelho da pagina*/
+/*logo e barra de pesquisa*/
+img.logo{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+div#logocontainer{
+    width: 57%;
+    height: 71px;
+    float: left;
+    background-color: white;
+    overflow: auto;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+input#inputbox{
+      font-family: 'Arial Black';
+      width: 520px;
+      height: 52px;
+      background-color: white;
+      color:rgb(123,104,238);
+      border:2px solid rgb(123,104,238);
+      cursor: pointer;
+      display:block;
+      
+      margin-top: 10px;
+      margin-left: 30%;
+      padding-left: 25px;
+}
+
+
+div.logotopo{
+    height: 100%;
+    width: 125px;
+    background-color: white;
+    float: left;
+}
+/*logo e barra de pesquisa END*/
+/*menu topo*/
+ul.listamenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    float: left;
+    border-left: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+ul.listamenu li{
+    float: left;
+    border-right: 1px solid #e7e7e7;
+}
+
+ul.listamenu li:last-child{
+    border-right: none;
+}
+
+li a.botao_menu{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 25px 43px;
+    text-decoration: none;
+}
+a.botao_menu:hover{
+    background-color: rgb(116, 116, 116);
+}
+/*menu topo END*/
+/*cabecalho end*/

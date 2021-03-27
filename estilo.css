@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Arial;
+}
+
+h3{
+    font-size: 40px;
+    padding: 70px;
+}
+
+/*-----menu */
+
+
+nav{
+    background-color:red;
+    height: 60px;
+}
+
+ul{
+    list-style: none;
+
+}
+
+li{
+    display: inline-block;
+    line-height: 60px;
+    padding: 0px 10px;
+}
+
+
+
+li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+li a:hover{
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+

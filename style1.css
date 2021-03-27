@@ -1,0 +1,385 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  font-family: Arial;
+  
+
+}
+televisao{
+  margin-left: 20px;
+}
+
+
+h1{
+  margin-left:25px;
+}
+
+.partegeral{
+  width: 100%;
+  height: 500px;
+  display: inline-block;
+  background-color: grey;
+
+}
+.partegeral .parte1{
+  background-color: red;
+  width: 400px;
+  line-height: 80px;
+}
+
+.partegeral .parte2{
+  background-color: blue;
+  width: 400px;
+  line-height: 80px;
+}
+
+.partegeral .parte3{
+  background-color: green;
+  width: 400px;
+  line-height: 80px;
+}
+
+div#largura-pagina{
+  width:85%;
+  height: 80px;
+  margin:auto;
+  
+}
+h2{
+  font-family: 'microsofot Yahei Light';
+  line-height: 80px;
+  margin-bottom: 10px;
+}
+
+
+/* menu*/
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+#cssmenu 
+{
+background: #f96e5b;
+width: auto;
+}
+
+#cssmenu ul {
+list-style: none;
+margin: 0;
+padding: 0;
+line-height: 1;
+display: block;
+zoom: 1;
+}
+
+#cssmenu ul:after 
+{
+content: " ";
+display: block;
+font-size: 0;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+#cssmenu ul li {
+display: inline-block;
+padding: 0;
+margin-right: -70px;
+margin-left: 90px;
+
+}
+#cssmenu.align-right ul li {
+float: right;
+}
+
+#cssmenu.align-center ul
+{
+text-align: center;
+}
+
+#cssmenu ul li a {
+color: #ffffff;
+text-decoration: none;
+display: block;
+padding: 15px 25px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+font-size: 14px;
+position: relative;
+-webkit-transition: color .25s;
+-moz-transition: color .25s;
+-ms-transition: color .25s;
+-o-transition: color .25s;
+transition: color .25s;
+margin-right: 100px;
+}
+#cssmenu ul li a:hover {
+color: #333333;
+}
+
+#cssmenu ul li a:hover:before {
+width: 100%;
+}
+#cssmenu ul li a:after {
+content: "";
+display: block;
+position: absolute;
+right: -3px;
+top: 19px;
+height: 6px;
+width: 6px;
+background: #ffffff;
+opacity: .5;
+}
+#cssmenu ul li a:before {
+content: "";
+display: block;
+position: absolute;
+left: 0;
+bottom: 0;
+height: 3px;
+width: 0;
+background: #333333;
+-webkit-transition: width .25s;
+-moz-transition: width .25s;
+-ms-transition: width .25s;
+-o-transition: width .25s;
+transition: width .25s;
+}
+#cssmenu ul li.last > a:after,
+#cssmenu ul li:last-child > a:after {
+display: none;
+}
+#cssmenu ul li.active a {
+color: #333333;
+margin-right: 100px;
+}
+#cssmenu ul li.active a:before {
+width: 100%;
+margin-right: 100px;
+}
+#cssmenu.align-right li.last > a:after,
+#cssmenu.align-right li:last-child > a:after {
+display: block;
+}
+#cssmenu.align-right li:first-child a:after {
+display: none;
+}
+@media screen and (max-width: 768px) {
+#cssmenu ul li {
+  float: none;
+  display: block;
+}
+#cssmenu ul li a {
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 1px solid #fb998c;
+}
+#cssmenu ul li.last > a,
+#cssmenu ul li:last-child > a {
+  border: 0;
+}
+#cssmenu ul li a:after {
+  display: none;
+}
+#cssmenu ul li a:before {
+  display: none;
+}
+}
+
+
+/* conteudo principal */
+
+section#conteudo1{
+  width:60%;
+  box-sizing: border-box;
+  float: left;
+  margin-left: -100px;
+}
+/* */
+
+
+input {
+  border: 0;
+  border-bottom: 2px solid #9e9e9e;
+  outline: none;
+  transition: .2s ease-in-out;
+  box-sizing: border-box;
+}
+
+label {
+  top: 0;
+  left: 0; right: 0;
+  color: #616161;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  font-size: 1rem;
+  cursor: text;
+  transition: .2s ease-in-out;
+  box-sizing: border-box;
+}
+
+input,
+label {
+  width: 50%;
+  height: 3rem;
+  font-size: 2rem;
+}
+
+input:valid,
+input:focus {
+  border-bottom: 2px solid #26a69a;  
+}
+
+input:valid + label,
+input:focus + label {
+  color: #26a69a;
+  font-size: .50rem;
+  top: -30px;
+  pointer-events: none;
+}
+
+/* */
+
+
+
+section#conteudo1 input[type=text]{   
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  box-shadow: 1px 1px 2px ;    
+  -moz-box-shadow: 1px 1px 2px ;
+  -webkit-box-shadow: 1px 1px 2px ;
+  background: ; 
+  border:1px solid;
+  width:450px
+}
+
+textarea{
+  border: 1px solid #000000;
+  width:350px;
+  height:100px;
+  border-radius:4px;
+  margin-left: 45PX;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  box-shadow: 1px 1px 2px #333333;    
+  -moz-box-shadow: 1px 1px 2px #333333;
+  -webkit-box-shadow: 1px 1px 2px #333333;
+}
+
+input[type=text]:hover, textarea:hover{ 
+       background: #ffffff; border:1px solid #990000;
+}
+
+input[type=submit]{
+      background:#006699;
+      color:#ffffff;
+      margin-left:45px;
+      width:100px;
+}
+hr{
+  background-color: #fff;
+  width: 55%;
+  border: 1px solid black;
+  margin-left: 300px;
+}
+
+/*--- area dos comentarios */
+
+
+.area-comentario{
+  box-sizing: border-box;
+  border-bottom: 1px solid gray;
+  clear: both;
+  padding-right: 10px;
+}
+
+.area-comentario img{
+  width:50px;
+  float:left;
+}
+
+.area-comentario h3{
+  float: left;
+  color:rgb(0,0,139);
+  font-size: 12pt;
+  padding: 5px 10px 5px 0px;
+}
+
+.area-comentario h4{
+  font-size: 10pt;
+  color: rgba(0,0,0.6);
+  line-height: 30px;
+}
+
+.area-comentario h4 a{
+  color:black;
+
+}
+
+.area-comentario p{
+  line-height: 25px;
+}
+
+/* couteudo lateral */
+
+
+
+section#conteudo2{
+  width:40%;
+  box-sizing: border-box;
+  float: right;
+  margin-left: 100px;
+}
+
+section#conteudo2 a{
+  text-decoration: none;
+  color: black;
+  padding-bottom: 10px;
+  
+}
+
+section#conteudo2 a:hover{
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+section#conteudo2 div {
+  width: 80%;
+  
+
+  padding-top: 30px;
+  margin-left: 160px;
+  margin-top: 0px;
+}
+
+
+
+.holder {
+display: flex;
+justify-content: center;
+height: 50%;
+}
+.imagem {
+width: 300px;
+margin: 10px;
+position: relative;
+text-align: center;
+padding-top: 5px;
+}
+.imagem::after {
+content: attr(data-title); /* estilo que coloco a legenda no lugar */
+position: absolute;
+width: 100%;
+bottom: -20px;
+left: 0;
+
+}
